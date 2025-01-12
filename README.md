@@ -8,3 +8,11 @@ Ejemplo de flujo de trabajo:
 Registro de Usuario : Un nuevo usuario se registra con su correo y contraseña. La contraseña se encripta y se almacena en la base de datos.
 Inicio de sesión : El usuario inicia sesión proporcionando su correo y contraseña. Si las credenciales son correctas, el servidor genera un token JWT que será usado para autenticar futuras solicitudes.
 Gestión de Contenido : Un usuario autenticado puede interactuar con la API para gestionar artistas, álbumes y canciones. Los datos de las solicitudes se validan y se procesan, y solo los usuarios con permisos adecuados pueden realizar acciones como la creación y eliminación de contenido.
+
+tectologias
+Node.js 
+Expresar
+Sequelize : ORM que facilita la interacción con bases de datos SQL.
+bcrypt : Librería para la encriptación y verificación de contraseñas.
+JWT : Estándar de autenticación basado en tokens para gestionar sesiones y control de acceso.
+MYSQL: Base de Datos
